@@ -2,8 +2,6 @@
 
 ## Lancer l'application 
 
-Se placer dans le dossier itinov-angular-interview-template
-
 Taper ```npm i```
 
 Taper ```ng serve```
