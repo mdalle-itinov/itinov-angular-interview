@@ -1,27 +1,21 @@
-# ItinovAngularInterviewTemplate
+# Itinov entretien Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+## Lancer l'application 
 
-## Development server
+Se placer dans le dossier itinov-angular-interview-template
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Taper ```npm i```
 
-## Code scaffolding
+Taper ```ng serve```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+L'application est maintenant disponible sur http://localhost:4200
 
-## Build
+## L'exercice
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+L'application affiche simplement des films (le titre et le poster) sur une page movies disponible en cliquant sur le lien Movies sur la page principale.
 
-## Running unit tests
+Ici les films affichés sont instanciés à la création du composant.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1) Créer un bouton qui ajoute des films provenant du service créé dans app/movies.service.ts. Les films renvoyés par ce service doivent être ajoutés à l'existant
+2) Le problème est qu'en rappuyant sur le bouton, on ajoute les mêmes films en boucle, donc trouver un moyen de n'ajouter que les films qui ne sont pas déjà affichés (pour tester on pourra ajouter un bouton ou autre pour retirer un film du tableau)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
